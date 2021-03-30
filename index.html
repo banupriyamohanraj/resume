@@ -1,0 +1,248 @@
+<html>
+<head>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+
+		<style>
+			body{
+				font-size: 20px;
+			}
+		.section1{
+			background-color: darkgrey;
+			column-width: 100%;
+			height:40%;
+			margin: auto;
+			padding: 100px 0px 0px 0px;
+			
+		}
+		.name{
+			background-color: #E1AD01;
+			border: 2px solid #E1AD01;
+  			border-radius: 10px;
+  			text-align:center;
+  			font-size: 60px;
+  			column-width: 30%;
+  			margin:0px 500px 0px 500px;
+ 
+		}
+		.namebar{
+			background-color: white;
+			column-width: 10%;
+			border:0px;
+			box-shadow: 0 0 0 15px darkgrey inset;
+		}
+		#contact{
+			font-size:20px;
+			text-align: center;
+		}
+		.section2{
+			background-color: grey;
+			column-width:100%;
+			height:150%;
+		}
+		.section3{
+			background-color: white;
+			width: 50%;
+			height:100%;
+			float:left;
+		/*	border-top: 2px solid grey;*/
+			/*border-top-style: groove;*/
+		}
+		.section4{
+			background-color: white;
+			width:50%;
+			height:100%;
+			float:right;
+/*			border-top:2px solid grey;
+*/			/*border-top-style: groove;*/
+		}
+		.profileSection{
+			border:1px solid white;
+			padding:10px 70px 0px 70px;
+			border-right-style: groove;
+			text-align:justify;
+		}
+		.workSection1{
+			border:1px solid white;
+			padding:10px 70px 0px 70px;
+			border-right-style: groove;
+			text-align:justify;
+		}
+		.workSection2{
+			border:1px solid white;
+			padding:30px 70px 0px 70px;
+
+		}
+		.skillSection{
+			border:1px solid white;
+			padding:10px 70px 0px 70px;
+			border-right-style: groove;
+		}
+		.educationsection{
+			text-align:justify;
+		}
+		
+		.slider {
+  		-webkit-appearance: none;
+  		width: 40%;
+  		height: 8px;
+  		background: #E1AD01;
+  		outline: none;
+  		opacity: 0.7;
+  		-webkit-transition: .2s;
+  		transition: opacity .2s;
+  		float:right;
+		}
+
+		.slider:hover {
+  		opacity: 1;
+		}
+
+		.slider::-webkit-slider-thumb {
+  		-webkit-appearance: none;
+  		appearance: none;
+  		width: 10px;
+  		height: 10px;
+  		background: white;
+  		cursor: pointer;
+		}
+
+		.slider::-moz-range-thumb {
+  		width: 25px;
+  		height: 25px;
+  		background: #E1AD01;
+  		cursor: pointer;
+		}
+		.title{
+		font-weight: bold;
+		font-size: 30px;
+		font-color:yellow;
+		}
+		.educationSection{
+		border:1px solid white;
+		padding:10px 70px 0px 70px;
+
+
+		}
+		.center {
+  		border-radius: 50%;
+  		display: block;
+  		margin-left: 250px;
+  		margin-right: auto;
+  		width: 50%;
+  		padding-right: 5px;
+  		padding-left:5px;
+		}
+		 img{
+		 	border-radius: 50%;
+		 	display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 50%;
+  			padding:0px;
+		 }
+		.mydiv{
+			margin:10px;
+		}
+		</style>
+
+</head>
+<body>
+<div class="mydiv">
+<div class= "section1">		
+ <img src="C:\Users\sowmya\Desktop\bootcamp\Day 13 9-03-2021\images.png"  style="width:150px;height:150px;object-position: center">
+ <div class="namebar"><p class ="name">BRIAN DUDEY</p></div>
+</div>
+<p id="contact">N.Damen Avenue,Chicago 99999|999-999-9999|hello@kickresume.com|www.Kickresume.com</p>
+<hr>
+<div class="section2">
+
+	<div class="section3">
+
+		<section class="profileSection">
+			<p><i class="fa fa-user-circle fa-2x" ></i>&ensp;<span class="title">Profile</span></p>
+			<p>Innovative Optimized solution seeker. Excited to be at the deployment phase of my new career as a web developer.I am ambitious, adventurous, assiduous, animated and an illitration advocate. </p>
+		</section>
+		<section class="skillSection">
+			<i class="fa fa-flask fa-2x" ></i>&ensp;<span style="font-weight: bold;font-size: 30px">Skills</span>
+			<p style="text-align: center;font-weight: bold">Technical Skills</p>
+			<div>
+			<p>JAVASCRIPT<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+			</span></p>
+			<p>CSS<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="70" class="slider" id="myRange">
+			</span></p>
+			<p>HTML<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="60" class="slider" id="myRange">
+			</span></p>
+			<p>node JS<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="70" class="slider" id="myRange">
+			</span></p>
+			<p>React<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="90" class="slider" id="myRange">
+			</span></p>
+			<p>Mongo DB<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+			</span></p>
+			</div>
+			
+			<p style="text-align: center;font-weight: bold">Additional Skills</p>
+			<p>Project Management<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="80" class="slider" id="myRange">
+			</span></p>
+			<p>Recruitment<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="100" class="slider" id="myRange">
+			</span></p>
+			<p>Business Development<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="90" class="slider" id="myRange">
+			</span></p>
+			<p>Editing<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="100" class="slider" id="myRange">
+			</span></p>
+			<p>Fundraising<span class="slidecontainer">
+  			<input type="range" min="1" max="100" value="90" class="slider" id="myRange">
+			</span></p>
+		</section>
+		<section class="workSection1">
+			<i class="fa fa-briefcase fa-2x"></i>&ensp;<span style="font-weight: bold;font-size: 30px">Work experience</span>
+			<p><b>Event Manager</b><span style="float:right">12/2016-03/2018</span></p>
+			<p>C3 Presents,Washington DC</p>
+			<ul><li>Lead and execute all phases of event planning and production spanning commitee recruitment,vendor relationships,training and onsite facilitation. </li>
+				<li>Brought new Business to the organisation through relentless netwroking and stewardship which helped the comany win the bidfor the State Department on the Middle East and,the companies largest civic event to date,the United State of Women  </li>
+				<li>Exercise fiscal control over budget creation,tracking and reporting.Collaborate with employees at all organisational level to advance cohesive operations.</li>
+			</ul>
+		</section>
+
+	</div>
+	<div class="section4">
+		<section class="workSection2">
+			<i class="fa fa-briefcase fa-2x"></i>&ensp;<span style="font-weight: bold;font-size: 30px">Work experience</span>
+			<p><b>Automation Tester</b><span style="float:right">6/2019-03/2020</span></p>
+			<p>Accenture Solutions Pvt Ltd</p>
+			<ul><li>Created accurate and efficient test scripts in Selenium, UFT to manage automated testing of certain products and features.</li>
+				<li>Analysing test results, capturing overall test coverage and efficiency, comparing with expected business SLA.</li>
+				<li>Identified and tracked defects with HP ALM and supported developers in resolving problems by completing additional tests</li>
+				<li>Effectively interacted with Developing and Support departments regarding software defects, worked closely to develop innovative solutions.</li>
+			</ul>
+		</section>
+		<section class="educationSection">
+			<p><i class="fa fa-graduation-cap fa-2x"></i>&ensp;<span style="font-weight: bold;font-size: 30px">Education</span></p>
+			<p><b>Engineering Immersion Program</b><span style="float:right">1/2019-11/2020</span></p>
+			<p>Thinkful,chicago,IL</p>
+			<p>Project-focused intensive program with emphasis on Mongo,Express,React, and Javascript(MERN) technical stack.  
+			<ul><li>Developed a  full-stack web application,"RenewU",using React that allows usersto explore various aspects of mediation.User's progress is stored ona backend created using Node and MangoDB</li>
+				<li>Developed a language learning app, "Foodie Phonetics" using spaced repitation and a linked list data structure. React was used to create the front end components while Node  and Mongo were used to create a backend that stores user data.</li>
+				<li>Developed a conceirge app, "pley", for individuals looking for curated suggestions when visiting a new place.React was used to develope the front end which includes real-time chat,drag and drop  and variety of advanced features.The backend,built using Node,Express, and Mongo,takes advantage of well-developed RESTful API, Geospatial searching, and user authentication with JWT.</li>   
+			</ul>
+			<p><b>B.Tech,Information Technology</b><span style="float:right">8/2012-4/2016</span></p>
+			<p>Sri Venkenteswara college of Engineering,Chennai</p>
+			<ul><li>E-book Management System: Used to enhance the reading culture in the modern era in a user friendly environment. Individual Role: Designed UI for the software, established DB connection, prepared presentation and paper works.</li>
+				<li>Sensor Navigator:Proposed the idea, contributed in developing the kit using microcontrollers and presented the content to the audience.</li>
+			</ul>
+		</section>
+	</div>
+</div>
+
+</div>
+</body>
+</html>
